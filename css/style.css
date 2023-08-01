@@ -66,8 +66,12 @@ p {
 }
 
 .bg-primary {
- background: #333;
- color: #f7c08a;
+ background: #f7c08a;
+ color: #333;
+}
+
+.clr {
+  clear: both;
 }
 
 .lead {
@@ -146,7 +150,7 @@ float: left;
 #home-info .info-img {
   float: left;
   width: 50%;
-  background: url("../img/diana-light-pBBxMUCgwuU-unsplash.jpg");
+  background: url("../img/toa-heftiba-a9pFSC8dTlo-unsplash.jpg")no-repeat center center/cover;
   min-height: 100%;
 
 }
@@ -161,4 +165,24 @@ float: left;
 }
 #home-info .info-content p {
 padding-bottom: 30px;
+}
+
+/* Features */
+.box {
+  float: left;
+  width: 33.3%;
+  padding: 50px;
+  text-align: center;
+}
+
+.box i {
+  margin-bottom: 10px;
+}
+
+/* Footer */
+#main-footer {
+  text-align: center;
+  background: #444;
+  color: white;
+  padding: 20px;
 }
